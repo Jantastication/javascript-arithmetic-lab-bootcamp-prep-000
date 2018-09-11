@@ -23,4 +23,12 @@ function divide (a, b) {
 }
 divide('a / b')
 
+function dec(a) {
+  return a - 1;
+}
+dec('a - 1')
 
+function makeInt(a) {
+  return parseInt('a', 10)
+}
+makeInt('parseInt(a, 10)')
