@@ -42,3 +42,8 @@ function preserveDecimal(a) {
   return parseFloat('a');
 }
 preserveDecimal(parseFloat('a'))
+
+function preserveDecimal(a) {
+  return parseFloat(a)
+}
+preserveDecimal(parseFloat('a'))
