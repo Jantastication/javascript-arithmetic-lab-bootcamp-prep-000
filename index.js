@@ -1,19 +1,4 @@
-function add(a, b) {
-  return a + b;
+function inc(a) {
+  return a + 1;
 }
-add(a, b)
-
-function subtract(a,b) {
-  return a - b;
-}
-subtract(a, b)
-
-function multiply(a,b) {
-  return a * b;
-}
-multipy(a, b)
-
-function divide(a, b) {
-  return a / b;
-}
-divide(a, b)
+inc('a + 1')
